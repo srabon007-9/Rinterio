@@ -221,7 +221,7 @@
         </section>
 
         <!-- Lets Connect Section -->
-         <section class="bg-[url('./assets/bg.jpg')] w-full bg-cover bg-center space-y-4 mt-3 pt-4">
+         <section class="bg-[url('./assets/bg.jpg')] w-full bg-cover bg-center space-y-4 mt-3 pt-4 pb-8">
           <button class="bg-white mt-3 rounded-3xl p-2 flex flex-row gap-3 text-sm m-auto"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
           </svg>
@@ -231,15 +231,15 @@
 
            <!-- Form -->
             <form action="" class="md:px-32 space-y-5 md:container md:mx-auto flex flex-col justify-center items-center space-x-2">
-              <div class="flex flex-row gap-4">
-                <input type="text" placeholder="First Name*" class="input input-bordered w-1/2 max-w-xs" />
-              <input type="text" placeholder="Last Name*" class="input input-bordered w-1/2 max-w-xs" />
+              <div class="flex flex-col md:flex-row justify-center items-center gap-3 w-[75%]">
+                <input type="text" placeholder="First Name*" class="input input-bordered w-full" />
+                <input type="text" placeholder="Last Name*" class="input input-bordered w-full " />
               </div>
-              <div class="flex flex-row gap-4">
-                <input type="text" placeholder="Phone Number*" class="input input-bordered w-full max-w-xs" />
-              <input type="text" placeholder="Email Number*" class="input input-bordered w-full max-w-xs" />
+              <div class="flex flex-col md:flex-row justify-center items-center gap-3 w-[75%]">
+                <input type="text" placeholder="Phone Number*" class="input input-bordered w-full " />
+                <input type="text" placeholder="Email Number*" class="input input-bordered w-full " />
               </div>
-              <textarea class="textarea textarea-bordered w-3/4" placeholder="Write Your Message Here"></textarea>
+              <textarea class="textarea textarea-bordered w-3/4 h-[25vh]" placeholder="Write Your Message Here"></textarea>
               <a class="btn bg-btn-primary hover:bg-btn-primary rounded-3xl w-3/4">Send Mail<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 p-1 rounded-3xl bg-black text-white">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
               </svg>
@@ -247,10 +247,30 @@
             </form>
          </section>
          
-         
     </main>
 
     <!-- Footer Section -->
-    <footer></footer>
+      <footer class="footer footer-center bg-[#1C1C1C] text-white text-base-content rounded p-10">
+        <a class="text-2xl  font-bold flex justify-center items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-btn-primary p-1 rounded-3xl text-black">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+        </svg> Rinterio</a>
+        <aside>
+          <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </aside>
+        <nav class="grid md:grid-flow-col lg:grid-flow-col gap-4">
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">Services</a>
+          <a class="link link-hover">Portfolio</a>
+          <a class="link link-hover">Blogs</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav>
+        
+        <a class="btn bg-btn-primary hover:bg-btn-primary rounded-3xl flex border-none">Book Consult <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 p-1 rounded-3xl bg-black text-white">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+        </svg>
+        </a>
+        
+      </footer>
+    
   </body>
 </html>
